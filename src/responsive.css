@@ -1,11 +1,11 @@
-/* for tablets and ipads */
+/* for laptops and smaller screens */
 @media only screen and (max-width: 992px) {
   .conversation-container,
-  /* .last-view-time, */
   .details-btns,
   .image-stack span,
   .overlay-cover,
-  .navbar-img2, #webicons {
+  .navbar-img2,
+  #webicons {
     display: none;
   }
   .details-title,
@@ -84,5 +84,11 @@
   .last-view-time,
   #nonmobileicons {
     display: none;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .widget-box {
+    width: 140px;
   }
 }
