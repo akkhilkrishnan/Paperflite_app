@@ -31,18 +31,16 @@ function ConversationList(props) {
       </div>
       {conversations.map((item, index, arr) => {
         return (
-          <>
-            <div
-              onClick={() => {
-                arr.map((item) => (item["selected"] = false));
-                item["selected"] = true;
-                props.pushDetails(item);
-              }}
-              key={index}
-            >
-              <ListItem item={item} />
-            </div>
-          </>
+          <div
+            onClick={() => {
+              arr.forEach((item) => (item["selected"] = false));
+              item["selected"] = true;
+              props.pushDetails(item);
+            }}
+            key={index}
+          >
+            <ListItem item={item} />
+          </div>
         );
       })}
     </div>

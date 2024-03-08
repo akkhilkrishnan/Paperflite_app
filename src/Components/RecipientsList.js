@@ -5,7 +5,7 @@ function RecipientsList(props) {
   const { recipients } = props;
   const [recipientSelected, setRecipientSelected] = useState("true");
   return (
-    <>
+    <div>
       <div className="recipients-header">
         <div
           className={`${recipientSelected ? "selected-header" : ""}`}
@@ -21,13 +21,13 @@ function RecipientsList(props) {
         </div>
       </div>
       {recipientSelected ? (
-        recipients.map((recipient) => {
-          return <RecipientRecord recipient={recipient} />;
+        recipients.map((recipient, index) => {
+          return <RecipientRecord recipient={recipient} key={index} />;
         })
       ) : (
         <div className="fallback-msg">No data found.</div>
       )}
-    </>
+    </div>
   );
 }
 
