@@ -1,0 +1,261 @@
+{
+  "conversations": [
+    {
+      "topic": "Meet New Paperflite",
+      "time": "4 hours",
+      "members": [
+        "kelvin",
+        "james clark",
+        "john",
+        "Amy",
+        "sara",
+        "james clark",
+        "john"
+      ],
+      "openemail": 50,
+      "clickrate": 100,
+      "timespent": 22.53,
+      "dealvalue": 367,
+      "noofrecipients": 8,
+      "noofsections": 5,
+      "noofassetsshared": 2,
+      "noofrecipientsshared": 4,
+      "recipients": [
+        {
+          "imgurl": "../Assets/Images/samplerecipient.jpeg",
+          "name": "james clark",
+          "lastviewedtime": "01 Jan 2024",
+          "number": 85
+        },
+        {
+          "imgurl": "../Assets/Images/samplerecipient.jpeg",
+          "name": "Elizabeth Carol",
+          "lastviewedtime": "02 Jan 2024",
+          "number": 86
+        },
+        {
+          "imgurl": "../Assets/Images/samplerecipient2.jpeg",
+          "name": "Pamela Jack",
+          "lastviewedtime": "03 Jan 2024",
+          "number": 88
+        },
+        {
+          "imgurl": "../../src/Assets/Images/samplerecipient3.jpeg",
+          "name": "Michael",
+          "lastviewedtime": "04 Jan 2024",
+          "number": 90
+        },
+        {
+          "imgurl": "../../src/Assets/Images/samplerecipient3.jpeg",
+          "name": "Jack Reacher",
+          "lastviewedtime": "05 Jan 2024",
+          "number": 85
+        }
+      ]
+    },
+    {
+      "topic": "Collection “seeeek”",
+      "time": "1 month",
+      "members": ["Rhonald"],
+      "openemail": 65,
+      "clickrate": 34,
+      "timespent": 53.24,
+      "dealvalue": 23,
+      "noofrecipients": 4,
+      "noofsections": 2,
+      "noofassetsshared": 1,
+      "noofrecipientsshared": 7,
+      "recipients": [
+        {
+          "imgurl": "../Assets/Images/samplerecipient3.jpeg",
+          "name": "Henry Carol",
+          "lastviewedtime": "02 Jan 2024",
+          "number": 67
+        },
+        {
+          "imgurl": "../Assets/Images/samplerecipient3.jpeg",
+          "name": "james clark",
+          "lastviewedtime": "02 Jan 2024",
+          "number": 88
+        },
+        {
+          "imgurl": "../Assets/Images/samplerecipient3.jpeg",
+          "name": "Mike",
+          "lastviewedtime": "02 Jan 2024",
+          "number": 85
+        },
+        {
+          "imgurl": "../Assets/Images/samplerecipient3.jpeg",
+          "name": "Joe",
+          "lastviewedtime": "02 Jan 2024",
+          "number": 85
+        },
+        {
+          "imgurl": "../Assets/Images/samplerecipient3.jpeg",
+          "name": "Anderson",
+          "lastviewedtime": "02 Jan 2024",
+          "number": 85
+        }
+      ]
+    },
+    {
+      "topic": "Indira Gandhi International Airport",
+      "time": "1 month",
+      "members": [
+        "kelvin",
+        "james clark",
+        "john",
+        "Amy",
+        "sara",
+        "james clark",
+        "john"
+      ],
+      "openemail": 32,
+      "clickrate": 98,
+      "timespent": 97.53,
+      "dealvalue": 234,
+      "noofrecipients": 2,
+      "noofsections": 7,
+      "noofassetsshared": 8,
+      "noofrecipientsshared": 1,
+      "recipients": [
+        {
+          "imgurl": "../Assets/Images/samplerecipient3.jpeg",
+          "name": "Benjamin Carol",
+          "lastviewedtime": "02 Jan 2024",
+          "number": 89
+        },
+        {
+          "imgurl": "../Assets/Images/samplerecipient3.jpeg",
+          "name": "james clark",
+          "lastviewedtime": "02 Jan 2024",
+          "number": 87
+        },
+        {
+          "imgurl": "../Assets/Images/samplerecipient3.jpeg",
+          "name": "Michael",
+          "lastviewedtime": "02 Jan 2024",
+          "number": 75
+        },
+        {
+          "imgurl": "../Assets/Images/samplerecipient3.jpeg",
+          "name": "Jack carter",
+          "lastviewedtime": "02 Jan 2024",
+          "number": 43
+        },
+        {
+          "imgurl": "../Assets/Images/samplerecipient3.jpeg",
+          "name": "Pamela Jack",
+          "lastviewedtime": "02 Jan 2024",
+          "number": 81
+        }
+      ]
+    },
+    {
+      "topic": "Meet New Paperflite",
+      "time": "4 hours",
+      "members": [
+        "kelvin",
+        "james clark",
+        "john",
+        "Amy",
+        "sara",
+        "james clark",
+        "john"
+      ],
+      "openemail": 45,
+      "clickrate": 87,
+      "timespent": 93.53,
+      "dealvalue": 287,
+      "noofrecipients": 1,
+      "noofsections": 6,
+      "noofassetsshared": 6,
+      "noofrecipientsshared": 2,
+      "recipients": [
+        {
+          "imgurl": "../Assets/Images/samplerecipient3.jpeg",
+          "name": "Christopher Carol",
+          "lastviewedtime": "05 Jan 2024",
+          "number": 56
+        },
+        {
+          "imgurl": "../Assets/Images/samplerecipient3.jpeg",
+          "name": "james Noah",
+          "lastviewedtime": "09 Jan 2024",
+          "number": 67
+        },
+        {
+          "imgurl": "../Assets/Images/samplerecipient3.jpeg",
+          "name": "Henry",
+          "lastviewedtime": "23 Jan 2024",
+          "number": 98
+        },
+        {
+          "imgurl": "../Assets/Images/samplerecipient3.jpeg",
+          "name": "Oliver",
+          "lastviewedtime": "24 Jan 2024",
+          "number": 54
+        },
+        {
+          "imgurl": "../Assets/Images/samplerecipient3.jpeg",
+          "name": "Jack racher",
+          "lastviewedtime": "12 Jan 2024",
+          "number": 93
+        }
+      ]
+    },
+    {
+      "topic": "New Paperflite",
+      "time": "4 hours",
+      "members": [
+        "kelvin",
+        "james clark",
+        "john",
+        "Amy",
+        "sara",
+        "james clark",
+        "john"
+      ],
+      "openemail": 12,
+      "clickrate": 23,
+      "timespent": 83.53,
+      "dealvalue": 755,
+      "noofrecipients": 1,
+      "noofsections": 8,
+      "noofassetsshared": 6,
+      "noofrecipientsshared": 2,
+      "recipients": [
+        {
+          "imgurl": "../Assets/Images/samplerecipient3.jpeg",
+          "name": "Charles Carol",
+          "lastviewedtime": "05 Jan 2024",
+          "number": 56
+        },
+        {
+          "imgurl": "../Assets/Images/samplerecipient3.jpeg",
+          "name": "Adam clark",
+          "lastviewedtime": "09 Jan 2024",
+          "number": 67
+        },
+        {
+          "imgurl": "../Assets/Images/samplerecipient3.jpeg",
+          "name": "Jackson",
+          "lastviewedtime": "23 Jan 2024",
+          "number": 98
+        },
+        {
+          "imgurl": "../Assets/Images/samplerecipient3.jpeg",
+          "name": "Elliot",
+          "lastviewedtime": "24 Jan 2024",
+          "number": 54
+        },
+        {
+          "imgurl": "../Assets/Images/samplerecipient3.jpeg",
+          "name": "John Langdon",
+          "lastviewedtime": "12 Jan 2024",
+          "number": 93
+        }
+      ]
+    }
+  ]
+}

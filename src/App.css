@@ -1,0 +1,269 @@
+.App {
+  font-size: 14px;
+}
+.home-page {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+
+/* Nav bar styless starts*/
+.nav-bar-container {
+  border-right: 1px solid #dbdbdb;
+  width: 4%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+.navbar-img,
+.navbar-img2 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 40px 20px 30px 20px;
+  align-items: center;
+}
+
+/* Nav bar styless ends*/
+
+/* details page image styles */
+#coverImage {
+  background-image: linear-gradient(
+      178.43deg,
+      rgba(250, 250, 250, 0) 0.4%,
+      #fefefe 90.62%
+    ),
+    url("./Assets/Images/pagecover.png");
+  width: 100%;
+  height: 23%;
+  background-size: cover;
+  background-position: center center;
+}
+
+/* widget styles starts */
+.widget-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 20px 0;
+}
+.widget-box {
+  width: 150px;
+  height: 65px;
+  border-radius: 8px;
+  padding: 0px 8px 8px 8px;
+  border: 0.5px solid #dbdbdb;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  cursor: pointer;
+}
+
+.widget-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.widget-number {
+  font-size: 16;
+  font-weight: 500;
+}
+
+.widget-info {
+  font-family: "Samsung Sharp Sans Regular";
+
+  font-size: 10px;
+  font-weight: 300;
+}
+
+/* widget styles ends */
+
+.avatar {
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.recipient-record-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.recipient-record {
+  display: flex;
+  gap: 12px;
+  margin: 12px 0;
+  align-items: center;
+}
+
+.recipient-record-btns {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+/* conversation styless starts*/
+.seach-bar-style {
+  display: flex;
+  border-radius: 8px;
+  border: 1px solid #dbdbdb;
+  margin: 25px auto 0 auto;
+  padding: 10px;
+  width: 90%;
+  justify-content: center;
+  align-self: center;
+  background: url(Assets/Images/seach-bar.svg) no-repeat 97% 50%;
+}
+
+::placeholder {
+  color: #a9a9a9;
+  font-style: italic;
+}
+input:focus-visible {
+  outline: none;
+}
+.sort-style {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: auto;
+  padding: 10px 0 20px 0;
+  width: 90%;
+  align-items: center;
+  span {
+    font-size: 10px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+}
+
+.sort-style span:hover {
+  color: #e51058;
+}
+.conversation-list-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 25px;
+}
+
+.conversation-list-subhead {
+  font-size: 12px;
+  font-weight: 300;
+}
+.conversation-container {
+  padding: 20px;
+  width: 25%;
+  border-right: 1px solid #dbdbdb;
+}
+.conversation-img-style {
+  width: 80px;
+  height: 82px;
+  border-radius: 10px;
+}
+.list-container {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.list-container:hover {
+  background-color: #f7f7f7;
+  cursor: pointer;
+}
+.list-container:hover .con-topic {
+  color: #e51058;
+}
+.list-record {
+  position: relative;
+  bottom: 8px;
+}
+.details-container {
+  width: 70%;
+}
+.share-time {
+  font-family: "Samsung Sharp Sans Regular";
+  font-size: 12px;
+  font-weight: 700;
+  color: #717274;
+}
+.last-view-time {
+  font-family: "Samsung Sharp Sans Regular";
+  font-size: 12px;
+  color: #686868;
+}
+.number-style {
+  font-family: "Samsung Sharp Sans Regular";
+  color: #a9a9a9;
+}
+.share-members {
+  font-family: "Samsung Sharp Sans Regular";
+  font-size: 12px;
+  padding-top: 20px;
+  color: #a9a9a9;
+}
+
+.overlay-cover {
+  position: relative;
+  bottom: 24%;
+  width: 100%;
+}
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.image-stack {
+  display: flex;
+  gap: 12px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.recipients-header {
+  display: flex;
+  gap: 15px;
+  font-weight: 500;
+  margin: 15px 0;
+  font-size: 16px;
+  cursor: pointer;
+}
+.selected-header {
+  color: #e51058;
+}
+
+.details-title {
+  font-size: 32px;
+  font-weight: 700;
+}
+.details-topic {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.details-subheading {
+  font-size: 12px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.details-time {
+  font-size: 10px;
+  color: #717274;
+}
+.recipient-name {
+  font-weight: 700;
+}
+.details-section {
+  margin: 0 30px;
+}
+
+.fallback-msg {
+  display: flex;
+  justify-content: center;
+  margin: 20%;
+  color: #686868;
+}
+/* Nav bar styless ends*/

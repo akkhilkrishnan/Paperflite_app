@@ -1,0 +1,82 @@
+@media only screen and (max-width: 1000px) {
+  .conversation-container,
+  .last-view-time,
+  .details-btns,
+  .image-stack span,
+  .overlay-cover,
+  .navbar-img2,
+  .navbar-img span {
+    display: none;
+  }
+  .details-title,
+  .details-topic {
+    font-size: 24px;
+    font-weight: 700;
+  }
+  .details-container {
+    width: 100%;
+    height: 100% !important;
+    margin-bottom: 15%;
+  }
+  .recipient-name,
+  .number-style {
+    font-size: 12px;
+  }
+  .recipients-header,
+  .widget-number {
+    font-size: 14px;
+  }
+  .widget-info,
+  .details-time {
+    font-size: 10px;
+    font-family: "Samsung Sharp Sans Regular";
+  }
+  .recipient-name {
+    font-weight: 500;
+  }
+  .details-section {
+    bottom: unset;
+    margin: 0 15px;
+  }
+  .home-page {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .navbar-img {
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 20px;
+    bottom: 0%;
+    padding: 20px;
+  }
+  .nav-bar-container {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    /* top: 90%; */
+    border-top: 1px solid #dbdbdb;
+    height: unset;
+    background-color: #fff;
+    opacity: 100%;
+    z-index: 100;
+  }
+  .details-container img {
+    object-fit: fill;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #coverImage {
+    background-image: linear-gradient(
+        180.43deg,
+        rgba(250, 250, 250, 0) 0.4%,
+        #fefefe 95.62%
+      ),
+      url("./Assets/Images/mobilecover.png");
+    width: 100%;
+    height: 24%;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+}
