@@ -18,7 +18,9 @@ function RecipientRecord(props) {
           style={{ borderRadius: "8px" }}
         ></img>
         <div className="recipient-name">{recipient.name}</div>
-        <LineImg />
+        <span id="nonmobileicons">
+          <LineImg />
+        </span>
         <div className="last-view-time">
           last viewed on {recipient.lastviewedtime}
         </div>
