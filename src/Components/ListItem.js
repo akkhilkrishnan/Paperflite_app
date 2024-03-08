@@ -15,7 +15,7 @@ function ListItem(props) {
           }`}
         >
           {item.topic.length > 32
-            ? item.topic.substring(0, 31) + "..."
+            ? item.topic.substring(0, 30) + "..."
             : item.topic}
         </div>
         <div className="share-time">Shared {item.time} ago</div>
