@@ -11,7 +11,7 @@ function RecipientRecord(props) {
     <div className="recipient-record-container">
       <div className="recipient-record">
         <img
-          src={require("../Assets/Images/samplerecipient2.jpeg")}
+          src={recipient.imgurl}
           width={35}
           height={35}
           alt="recipient profile"

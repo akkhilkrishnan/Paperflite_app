@@ -33,7 +33,7 @@ function SideNav() {
           width={40}
           height={40}
           alt="member profile"
-          src={require("../Assets/Images/samplerecipient2.jpeg")}
+          src="Images/samplerecipient2.jpeg"
         ></img>
       </div>
     </div>
