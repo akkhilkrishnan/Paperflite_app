@@ -40,6 +40,7 @@
   .home-page {
     display: flex;
     flex-direction: column-reverse;
+    height: 100vh;
   }
   .navbar-img {
     flex-direction: row;
